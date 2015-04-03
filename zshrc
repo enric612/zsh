@@ -45,7 +45,7 @@ ZSH_THEME="murilasso"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(autojump autopep8 chucknorris common-aliases compleat debian dircycle dirhistory git gitignore gradle pep8 pip python)
+plugins=(autojump chucknorris compleat dircycle dirhistory git gitignore gradle )
 
 # User configuration
 
@@ -124,4 +124,5 @@ alias tmux='TERM=screen-256color-bce tmux'
 
 alias sz='source ~/.zshrc'
 
+clear
 chuck_cow
