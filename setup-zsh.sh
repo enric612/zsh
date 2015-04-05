@@ -4,7 +4,7 @@ echo "------------------------------------------------------------"
 echo "Instalant zsh+oh-my-zsh+dependencies"
 echo "------------------------------------------------------------"
 
-sudo apt-get install zsh wget curl fortune cowsay
+sudo apt-get install zsh wget curl fortune cowsay tmux vim
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 bash install.sh
 
