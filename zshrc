@@ -9,6 +9,7 @@ ZSH_THEME="murilasso"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
+#
 
 # Uncomment the following line to disable bi-weekly auto-update checks.
 # DISABLE_AUTO_UPDATE="true"
@@ -78,6 +79,10 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+export TERM="xterm-256color"
+
 export #===============================
 export virtualenv
 export #===============================
@@ -123,6 +128,9 @@ alias gv='git log --pretty=format:'%s' | cut -d " " -f 1 | sort | uniq -c | sort
 alias tmux='TERM=screen-256color-bce tmux'
 
 alias sz='source ~/.zshrc'
+# Alias especifics, canviar directori si es necesari
+alias ezsh='vim ~/temes/zsh/zshrc'
+alias evim='vim ~/temes/vimrc/vimrc'
 
 clear
 chuck_cow
